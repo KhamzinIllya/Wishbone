@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    padding: 22px 0;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo1 {
+    margin-left: 32px;
+    margin-top: 14px;
+    display: inline-block;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul li:hover{
+ transform: scale(1.2);
+}
+
+header ul li:hover a{
+    color: red;
+}
+
+.item1 {
+    margin: 11px 0 0 359px;
+}
+
+.link1 {
+    color: #1B1A1A;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.item2 {
+    margin: 11px 0 0 32px;
+}
+
+.link2 {
+    color: #1B1A1A;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.item3 {
+    margin: 11px 0 0 32px;
+}
+
+.link3 {
+    color: #1B1A1A;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.item4 {
+    margin: 11px 0 0 32px;
+}
+
+.link4 {
+    color: #1B1A1A;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.item5 {
+    margin: 11px 0 0 32px;
+}
+
+.link5 {
+    color: #1B1A1A;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.item6 {
+    margin: 0 0 0 32px;
+    background-color: #1B1A1A;
+    border-radius: 14px;
+}
+
+.link6 {
+    color: #FFFFFF;
+    display: flex;
+    padding: 11px 20px 11px 20px;
+    white-space: pre;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main_content {
+    background-color: #ECE7E4;
+    padding-top: 137px;
+    padding-bottom: 128px;
+    box-sizing: border-box;
+    height: 720px;
+    background-image: url("/images/IMAGE.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+.section1_conteiner1 {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.section1_conteiner2 {
+    max-width: 509px
+}
+
+.title1 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+    margin-bottom: 20px;
+}
+
+.subject1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    color: #1B1A1A;
+    margin-bottom: 18px;
+}
+
+.desc1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    margin-bottom: 41px;
+}
+
+.section1_link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    margin-left: 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.section2 {
+    background-color: #CEC4BC;
+    padding-top: 100px;
+    padding-bottom: 117px;
+}
+
+.section2_generalconteiner {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2_conteiner1 {
+    max-width: 569px;
+}
+
+.title2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+
+.desc2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #1B1A1A;
+}
+
+.section2_conteiner2 {
+    padding-top: 45px;
+    padding-bottom: 28px;
+}
+
+.section2_link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #F7F7F7;
+    padding-top: 62px;
+    padding-bottom: 60px;
+}
+
+.footer_conteiner1 {
+    margin: auto;
+    max-width: 1240px;
+    justify-content: space-between;
+    display: flex;
+">
+
+}
+
+.footer_conteiner2 {
+    max-width: 362px;
+}
+
+.footer_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #645C55;
+    margin-top: 20px;
+}
+
+.list2 {
+    display: flex;
+    list-style: none;
+}
+
+.item_logo1 {
+    margin-top: 62.25px;
+    margin-bottom: 2.25px;
+}
+
+.item_logo2 {
+    margin-left: 20px;
+    margin-top: 62.25px;
+    margin-bottom: 2.25px;
+}
+
+.item_logo3 {
+    margin-left: 26.38px;
+    margin-top: 62.25px;
+    margin-bottom: 2.25px;
+}
