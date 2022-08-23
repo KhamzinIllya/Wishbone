@@ -418,9 +418,6 @@ header ul li:hover a{
     padding-top: 20px;
 }
 
-.owl-dots active .span{
-    border-color: #D6D6D6;
-}
 
 
 .owl-dots span:active{
