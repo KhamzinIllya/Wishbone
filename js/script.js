@@ -7,6 +7,7 @@ $(document).ready(function(){
         dotsEach: true,
         smartSpeed: 1000,
         navText: [ '', ' ' ],
+
         responsive:{
             0:{
                 items:1
