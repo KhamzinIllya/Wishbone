@@ -89,7 +89,7 @@ header ul li:hover a{
 
 
 .item6 {
-    margin: 0 0 0 32px;
+    margin: 10px 0 0 32px;
     background-color: #1B1A1A;
     border-radius: 14px;
 }
@@ -447,6 +447,113 @@ header ul li:hover a{
     width: 9px;
     height: 9px;
     background-color: antiquewhite;
+}
+
+.ui-widget-header{
+    background:  #ECE7E4;
+    border-radius: 10px;
+}
+.ui-widget-content{
+    background:  #CEC4BC;
+    border-radius: 10px;
+}
+
+.form_dialog {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.ui-dialog .ui-dialog-title{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+.ui-dialog .ui-dialog-titlebar{
+    display: flex;
+    justify-content: center;
+}
+
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon{
+    background-color: #CEC4BC ;
+}
+.ui-dialog .ui-dialog-titlebar-close{
+    right: 10px;
+}
+
+.ui-dialog .ui-dialog-content{
+    padding: 5px;
+}
+.dialog_input {
+    border-radius: 10px;
+    border: #645C55;
+    padding: 5px 5px 5px 5px;
+    outline: none;
+}
+
+
+.dialog_button_submit {
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+.dialog_button_submit:hover{
+    transform: scale(1.05);
+}
+.dialog_button_reset {
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+.dialog_button_reset:hover{
+    transform: scale(1.05);
+}
+
+.ui-dialog .ui-dialog-titlebar-close{
+    border-color: #CEC4BC;
+}
+
+.ui-dialog .ui-dialog-titlebar-close, .ui-buttone:active .ui-dialog-titlebar{
+    background-image: none;
+    background-color: unset;
+}
+
+.ui-icon {
+    text-indent: 0;
+}
+
+.ui-button .ui-icon {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "/f00d";
+    font-size: 15px;
+    margin-right: 5px;
+    transform-style: unset;
+    color: #403E3B;
+}
+
+.ui-icon:hover {
+    transform: unset;
 }
 
 
