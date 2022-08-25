@@ -109,7 +109,7 @@ header ul li:hover a{
     padding-bottom: 128px;
     box-sizing: border-box;
     height: 720px;
-    background-image: url("/images/IMAGE.jpg");
+    background-image: url("../images/IMAGE.jpg");
     background-position: right;
     background-repeat: no-repeat;
 
